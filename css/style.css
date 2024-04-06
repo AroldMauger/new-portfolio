@@ -1,0 +1,153 @@
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+main {
+    background-color: #EDEDED;
+    padding: 20px;
+
+}
+
+.titre_portfolio {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header_portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #339966;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.image-container {
+      padding: 5px;
+}
+
+.image_logo_git {
+  border-radius: 50%;
+  cursor:pointer;
+  width: 9%;
+}
+
+.image_logo_git:hover {
+  opacity: 0.5;
+  }
+
+
+.total-projects {
+    margin:0px;
+    color:white;
+    font-weight: 500;
+    font-size: 26px;
+    padding-right:10px;
+}
+
+/*CARDS */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:48px;
+    padding-top: 55px;
+    width: 100%;
+
+}
+
+.clickable-card {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    width: 20%;
+}
+.go-to-website:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    color:black;
+}
+
+.clickable-card:hover {
+    color:black;
+}
+
+.tag {
+    position: absolute;
+    background-color: #339966;
+    height: 26px;
+    width: 35%;
+    right: 0;
+    top: 0;
+    border-radius: 0px 0px 0px 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-block: 5px;
+    color:white;
+}
+
+.project-image {
+    width: 100%;
+    overflow: hidden;    
+    aspect-ratio: 2/1;
+}
+
+.text-in-project-container {
+    padding-inline : 15px;
+    padding-bottom: 10px;
+    height: 150px;
+
+}
+
+.project-name {
+    font-size: 18px;
+    margin-top:20px;
+}
+
+.project-description {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.technologies-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;    
+    margin-top: 1rem;
+    padding-inline : 15px;
+
+}
+
+.technology-name {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding:5px 8px 5px 8px;
+    text-align: center;
+    height: 32px;
+    font-size: 14px;
+}
+
+.section-in-project {
+    color: #7A7A7A;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    padding-inline : 15px;
+
+}
+
+.button-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
