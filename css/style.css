@@ -5,10 +5,13 @@ body {
 
 main {
     background-color: #EDEDED;
-    padding: 20px;
-
+    padding-bottom: 50px;
 }
 
+
+#filter-dropdown {
+    margin : 20px;
+}
 .titre_portfolio {
     display: flex;
     align-items: center;
@@ -20,8 +23,6 @@ main {
     justify-content: space-between;
     align-items: center;
     background-color: #339966;
-    height: 60px;
-    width: 100%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -48,14 +49,22 @@ main {
     padding-right:10px;
 }
 
+.main-title-portfolio {
+    margin:0px;
+    color:white;
+    font-weight: 500;
+    font-size: 26px;
+    padding-right:10px;
+}
+
 /*CARDS */
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap:48px;
     padding-top: 55px;
     width: 100%;
+    padding-left: 100px;
 
 }
 
@@ -150,4 +159,105 @@ main {
    justify-content: center;
    margin-top: 1rem;
    margin-bottom: 1rem;
+}
+
+
+/* MEDIA QUERY TABLETTE*/
+@media (max-width: 1280px) {
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Simplification de la définition des colonnes */
+        gap: 20px;
+        padding-top: 55px;
+        padding-inline: 0px;
+        justify-content: center; 
+        margin: 0 auto; 
+    }
+    
+    .main-title-portfolio {
+       display: none;
+    }
+
+    .text-in-project-container {
+        text-align: center;
+        height: auto;
+        padding-inline: 8px;
+    }
+
+
+
+    .clickable-card {
+        position: relative;
+       
+        flex-direction: column;        text-decoration: none;
+        color: black;
+        background-color: white;
+        width: 90%;
+        min-height: 300px;
+    }
+
+    .section-in-project {
+        display: block;
+        text-align: center;
+    }
+    .technologies-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-self: flex-end;
+        gap:20px;    
+        margin-top: 20px;
+        padding-inline : 0px;
+    
+    }
+    
+    .technology-name {
+        border: 0px solid black;
+        border-radius: 15px;
+        padding: 0px;
+        text-align: center;
+        height: 0px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+/* MEDIA QUERY TABLETTE*/
+@media (max-width: 850px) {
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 55px;
+        gap:20px;
+        padding-inline: 20px;
+    }
+
+    .total-projects {
+        width: 100%;
+        text-align: end;
+
+     }
+
+}
+
+/* MEDIA QUERY MOBILE */
+@media (max-width: 605px) {
+
+
+    .cards-container {
+        display: flex;
+        gap: 40px;
+        padding-top: 55px;
+        padding-inline: 20px;
+    }
+
+    .total-projects {
+        width: 100%;
+        text-align: end;
+     }
+
 }

@@ -1,6 +1,24 @@
 export const projects = [
     {
         "id": 1,
+        "image": "soignemoi.jpg",
+        "name" : "Appli web pour un hôpital",
+        "description": "Prenez rendez-vous à l'hôpital, ajoutez des prescriptions sur mobile, gérez les RDV.",
+        "technologies": ["Symfony", "Twig", "Javascript", "MySql", "Kotlin", "Android", "API", "React", "Tauri"],
+        "url" : "https://soignemoi.alwaysdata.net/",
+        "tag" : "Web et mobile"
+    },
+    {
+        "id": 2,
+        "image": "monGarage.png",
+        "name" : "Site de gestion des RDV",
+        "description": "Créez des rdv pour votre garage, consultez votre historique, conservez vos données clients.",
+        "technologies": ["Symfony", "Twig", "Javascript", "MySql", "Kotlin", "Android", "API"],
+        "url" : "https://mongarage.alwaysdata.net/",
+        "tag" : "Web et mobile"
+    },
+    {
+        "id": 3,
         "image": "monSuiviCrypto.jpg",
         "name" : "Suivi des cryptomonnaies",
         "description": "Créez un compte et consultez les infos des cryptomonnaies qui vous intéressent",
@@ -8,9 +26,8 @@ export const projects = [
         "url" : "https://mon-suivi-crypto.alwaysdata.net/index.php",
         "tag" : "Responsive"
     },
-   
     {
-        "id": 2,
+        "id": 4,
         "image": "sportsee.png",
         "name" : "Tableau de bord avec graphiques",
         "description": "Analysez vos performances sportives à l'aide de graphiques détaillés",
@@ -19,7 +36,7 @@ export const projects = [
         "tag" : "Desktop only"
     },
     {
-        "id": 3,
+        "id": 5,
         "image": "kasa.png",
         "name" : "Site d'hébergement chez particuliers",
         "description": "Regardez les appartements à louer et leurs caractéristiques",
@@ -28,7 +45,7 @@ export const projects = [
         "tag" : "Desktop only"
     },
     {
-        "id": 4,
+        "id": 6,
         "image": "lesPetitsPlats.jpg",
         "name" : "Site de recettes",
         "description": "Trouvez la recette qui vous correspond grâce aux différents filtres",
@@ -37,7 +54,7 @@ export const projects = [
         "tag" : "Desktop only"
     },
     {
-        "id": 5,
+        "id": 7,
         "image": "fishEye.png",
         "name" : "Site de photographes",
         "description": "Admirez les photos prises par des photographes professionnels",
@@ -46,21 +63,23 @@ export const projects = [
         "tag" : "Desktop only"
     },
     {
-        "id": 6,
-        "image": "monGarage.png",
-        "name" : "Site de gestion des RDV",
-        "description": "Créez des rdv pour votre garage, consultez votre historique, conservez vos données clients",
-        "technologies": ["Symfony", "Twig", "Javascript"],
-    } ,
+        "id": 8,
+        "image": "argentbank.png",
+        "name" : "Login sur appli bancaire",
+        "description": "Connectez-vous pour afficher vos transactions en cours",
+        "technologies": ["React", "Redux", "Javascript", "CSS"],
+        "url" : "https://aroldmauger.github.io/argentbank-front/",
+        "tag" : "Front-end only"
+    },
     {
-        "id": 7,
+        "id": 9,
         "image": "crud.png",
         "name" : "Projet CRUD",
         "description": "Ajoutez vos progrès dans le développement web",
         "technologies": ["Symfony", "Twig", "CSS"],
     },
     {
-        "id": 8,
+        "id": 10,
         "image": "ohMyFood.png",
         "name" : "Menus de restaurants",
         "description": "Consultez les menus de 4 restaurants gastronomiques",
@@ -69,7 +88,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 9,
+        "id": 11,
         "image": "gameOn.jpg",
         "name" : "Formulaire Javascript",
         "description": "Complétez les champs du formulaire pour participer",
@@ -78,7 +97,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 10,
+        "id": 12,
         "image": "nina.webp",
         "name" : "Site avec optimisation SEO",
         "description": "Admirez les photos de Nina Carducci sur son site pro",
@@ -87,7 +106,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 11,
+        "id": 13,
         "image": "ormettes.webp",
         "name" : "Salle d'arcade",
         "description": "Venez découvrir les différents jeux de la salle Les Ormettes (site multilingue : fr, en, es, ru)",
@@ -96,7 +115,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 12,
+        "id": 14,
         "image": "Booki_2.png",
         "name" : "Site d'offres d'hébergement",
         "description": "Comparez les annonces d'hébergements",
