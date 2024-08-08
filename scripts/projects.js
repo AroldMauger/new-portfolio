@@ -73,13 +73,22 @@ export const projects = [
     },
     {
         "id": 9,
+        "image": "logo.png",
+        "name" : "Landpage pour un artisan menuisier",
+        "description": "Site vitrine avec back-office permettant au menuisier d'ajouter ses travaux",
+        "technologies": ["HTML", "CSS", "Javascript", "Symfony", "MySql"],
+        "url" : "https://www.mnr-renovations.fr/",
+        "tag" : "Responsive"
+    },
+    {
+        "id": 10,
         "image": "crud.png",
         "name" : "Projet CRUD",
         "description": "Ajoutez vos progrès dans le développement web",
         "technologies": ["Symfony", "Twig", "CSS"],
     },
     {
-        "id": 10,
+        "id": 11,
         "image": "ohMyFood.png",
         "name" : "Menus de restaurants",
         "description": "Consultez les menus de 4 restaurants gastronomiques",
@@ -88,7 +97,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 11,
+        "id": 12,
         "image": "gameOn.jpg",
         "name" : "Formulaire Javascript",
         "description": "Complétez les champs du formulaire pour participer",
@@ -97,7 +106,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 12,
+        "id": 13,
         "image": "nina.webp",
         "name" : "Site avec optimisation SEO",
         "description": "Admirez les photos de Nina Carducci sur son site pro",
@@ -106,7 +115,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 13,
+        "id": 14,
         "image": "ormettes.webp",
         "name" : "Salle d'arcade",
         "description": "Venez découvrir les différents jeux de la salle Les Ormettes (site multilingue : fr, en, es, ru)",
@@ -115,7 +124,7 @@ export const projects = [
         "tag" : "Responsive"
     },
     {
-        "id": 14,
+        "id": 15,
         "image": "Booki_2.png",
         "name" : "Site d'offres d'hébergement",
         "description": "Comparez les annonces d'hébergements",
